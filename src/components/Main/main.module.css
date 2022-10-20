@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+section {
+    box-sizing: border-box;
+    padding-top: 1px;
+    padding-bottom: 96px;
+    background-color: #fff;
+}
+.Space_Intro {
+    padding-bottom: 0;
+    background:linear-gradient(180deg,#359191,#5ab683);
+}
+.Space_Container {
+    padding: 0 22px;
+    max-width: 1276px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+.Space_Intro_Context {
+    text-align: center;
+    margin: 0;
+}
+.Space_Intro_Context>h1 {
+    margin-top: 96px;
+    margin-bottom: 0;
+    color: #fff;
+    letter-spacing: -.005em;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 530;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+.Space_Intro_Context>p {
+    margin-top: 24px;
+    color: #fff;
+    font-family:"JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 29px;
+    font-weight: 320;
+    line-height: 39px;
+}
+.Space_Intro_Context_list {
+    margin-top: 24px;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+}
+.Space_Intro_Context_list>ul>li {
+    color: hsla(0,0%,100%,.7);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+.Intro_Svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+.Intro_SignUp {
+    max-width: 700px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+}
+.Intro_SignUp_Content {
+    text-align: center;
+}
+.Intro_SignUp_Content>h2 {
+    color: #fff;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 37px;
+    font-weight: 530;
+    line-height: 42px;
+}
+.Intro_SignUp_Content>a {
+    color: #27282c;
+    background-color: #fff;
+    padding: 12px 32px;
+    border-width: 0;
+    border-radius: 24px;
+    letter-spacing: .0015em;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,san-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 24px;
+}
+.Space_Animation {
+    position: relative;
+    padding-bottom: 30%;
+}
+.Space_Animation_Center {
+    background-position: bottom 5% left 20%,bottom -30% left 70%,top 20% left 10%,bottom;
+    left: 50%;
+    width: 36%;
+    background-image: url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_head2.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_arms2.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_bgr.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_bodies_2.png);
+    background-size: 35%,55%,90%,50%;
+    transform: translate(-50%);
+    position: absolute;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-position 2s;
+}
+.Space_Animation_Left {
+    left: 0;
+    width: 36%;
+    background-image: url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_head1.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_arms1_r.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_arms1_l.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_bodies_1_2.png);
+    background-position: top left 65%,bottom -10% right,bottom -20% left -5%,bottom;
+    background-size: 60%,40%,60%,60%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-position 2s;
+}
+.Space_Animation_Right {
+    right: 0;
+    width: 36%;
+    background-position: top 10% left 35%,bottom -150% right,bottom -600% left 10%,bottom;
+    background-size: 55%,55%,35%,55%;
+    background-image: url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_head3.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_arms3_r.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_arms3_l.png),url(https://www.jetbrains.com/space/solutions/software-teams/img/animation-desktop/desktop_parts_bodies_1_2.png);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    transition: background-position 2s;
+}
+.Space_Description {
+    background-color: #27282c;
+}
+.Space_Heading {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 96px;
+    color: #fff;
+    letter-spacing: -.005em;
+    font-family: "JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+}
+.SpaceFlex {
+    display: flex;
+    align-items: center;
+    margin-right: -16px;
+    margin-left:-16px;
+}
+.SpaceFlexLeft {
+    margin-top: 48px;
+    margin-left: 16px;
+    margin-right: 16px;
+    max-width: calc(50% - 32px);
+    box-sizing: border-box;
+    width: 100%;
+}
+.Span_normal {
+    color: hsla(0,0%,100%,.7);
+    font-family: §"JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.Span_Bold {
+    font-weight: 700;
+    color: hsla(0,0%,100%,.7);
+    font-family: §"JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+}
+.SpaceFlexLeft>ul {
+    font-family: §"JetBrains Sans",Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+}
+.SpaceFlexLeft>ul>li {
+    margin-top: 12px;
+    padding-left: 22px;
+    position: relative;
+    list-style-type: none;
+    color: hsla(0,0%,100%,.7);
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 19px;
+
+}
+li::before {
+    content: "•";
+    position: absolute;
+    top: 0;
+    display: block;
+    line-height: inherit;
+    color: inherit;
+    left: 0;
+    text-align: left;
+}
+img {
+    width: 100%;
+}
+.SpaceFeatures{
+    background-color: #323236;
+}
+.Features_Control {
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.Features_Button {
+    margin:0 8px;
+    max-width: 100%;
+    flex-basis: auto;
+}
+.Features_Button_Content {
+    padding: 6px 16px;
+    border-width: 0;
+    border-radius: 24px;
+    letter-spacing: .0015em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    background:transparent;
+    color: #fff;
+    border-color: hsla(0,0%,100%,.3);
+    border-width: 1px;
+}
+.Button_Active {
+    color: #27282c;
+    background-color: #fff;
+}
+.Features_Slideshow_Container {
+    margin-top: 48px;
+    width: 100%;
+}
+.Features_Slideshow_Flex {
+    display: flex;
+    align-items: center;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.Features_Slideshow_flex_left {
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: calc(33.33% - 40px);   
+}
+h2  {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 530;
+    line-height: 42px;
+}
+.Features_Slideshow_flex_left>p {
+    color:#ffffffb3;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .0015em;
+} 
+.Features_Slideshow_flex_left>p>a {
+    text-decoration: none;
+    color: #4ca6ff;
+}
+.Features_Slideshow_flex_left>ul>li {
+    margin-top: 12px;
+    padding-left: 22px;
+    position: relative;
+    color: hsla(0,0%,100%,.7);
+    letter-spacing: .0015em;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Features_Slideshow_flex_right {
+    margin-right: 20px;
+    margin-left: 20px;
+    max-width: calc(8.33333% * 8 - 40px);
+}
+.Space_cards {
+    background-color: #27282c;
+    text-align: center;
+}
+.Cards_Heading {
+    margin-top: 96px;
+    color: #fff;
+}
+.CardsList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 24px;
+    margin-right: -6px;
+    margin-left: -6px;
+}
+.CardsLisItem {
+    padding: 24px;
+    background-color: #3c3d40;
+    margin: 12px 6px 0;
+    max-width: calc(100% / 3 - 12px);
+}
+.CardsLisItem>svg {
+    width: 42px;
+    height: 42px;
+}
+.CardsLisItem>h3 {
+    margin: 12px 0 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 530;
+    line-height: 28px;
+}
+.CardsLisItem>p {
+    color:#ffffffb3;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .0015em;
+}
+.CardsBottomText {
+    margin: 48px -16px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.CardsBottomText>p {
+    margin: 0 16px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 320;
+    line-height: 39px;
+    color: #fff;
+    max-width: 74%;
+}
+.CardsBottomText>p>a {
+    color: #4ca6ff;
+    text-decoration: none;
+
+}
+.VideoPreview>button {
+    color: #fff;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    border:none;
+    justify-content: center;
+    padding: 6px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.VideoPreview>button>svg {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    margin: 0 8px 0 0;
+    fill: currentColor;
+}
+.Space_GetStarted {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 96px;   
+    text-align: center;
+}
+.Space_GetStarted>h2 {
+    color: #19191c;
+    margin-top: 12px;
+    font-size: 35px;
+    font-weight: 530;
+    line-height: 42px;
+    text-align: center;
+}
+.Space_GetStarted>p  {
+    color: #27282c;
+    margin-top: 12px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    display: block;
+}
+.Space_GetStarted>a  {
+    color: #fff;
+    background-color: #27282c;
+    border-radius: 24px;
+    padding: 12px 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 24px;
+}
+.Benefit_Flex {
+    display: flex;
+    justify-content: center;
+}
+.Benefit_Content {
+    max-width: calc(8.33333% * 7);
+}
+.Benefit_Content>h2 {
+    color: #27282c;
+    text-align: center;
+    margin-top: 96px;
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: 530;
+}
+.Benefit_Flex_Content {
+    max-width: calc(8.33333% * 10);
+}
+.BenefitBottomFlex {
+    display: flex;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.BenefitBottomFlexContent {
+    margin-top: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: calc(8.33333% * 6 - 20px * 2 );
+
+}
+.BenefitFlexBottom {
+    margin-top: 24px;
+    display: flex;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.BenefitFlexBottom>img {
+    width: 71px;
+    height: 71px;
+    max-width: 100%;
+    margin: 0 20px;
+}
+.BenefitFlexBottomText {
+    margin: 0 20px;
+}
+.BenefitBottomFlexContent>h3 {
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 320;
+}
+.BenefitBottomFlexContent>p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.BenefitName {
+    color: #27282c;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.BenefitJob {
+    color: rgba(25,25,28,.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.BottomSection {
+    background: #323236 url(https://www.jetbrains.com/space/solutions/software-teams/img/bg-promo.svg) top right -300px no-repeat;
+}
+.BottomContainer {
+    display: flex;
+    margin: 96px -16px 0;
+}
+.BottomLeft {
+    margin: 0 16px;
+    max-width: calc(8.333333% * 7 - 32px);
+}
+.BottomLeft>h2 {
+    margin: 0 16px;
+    color: #ffff;
+    font-size: 29px;
+    line-height: 39px;
+    font-weight: 320;
+    max-width: calc(8.33333% * 10 - 32px);
+}
